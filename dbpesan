@@ -1,0 +1,12 @@
+CREATE TABLE `pesan` (
+	`id_pesan` INT(11) NOT NULL AUTO_INCREMENT,
+	`nama_menu` VARCHAR(100) NOT NULL,
+	`harga_menu` VARCHAR(100) NOT NULL,
+	`jumlah_pesan` VARCHAR(100) NOT NULL,
+	`sold_pesan` TINYINT(1) NOT NULL DEFAULT 0,
+	PRIMARY KEY (`id_pesan`)
+)
+COLLATE='latin1_swedish_ci'
+ENGINE=InnoDB
+AUTO_INCREMENT=208
+;
