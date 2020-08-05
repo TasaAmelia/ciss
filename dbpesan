@@ -10,3 +10,6 @@ COLLATE='latin1_swedish_ci'
 ENGINE=InnoDB
 AUTO_INCREMENT=208
 ;
+
+INSERT INTO `pesan` VALUES ('Roti pandan','70000','11','0'),
+('Brownies coklat','62452','6','0');
